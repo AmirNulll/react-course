@@ -1,6 +1,6 @@
 function Todo(props) {
 
-  function DeleteHandeler(params) {
+  function DeleteHandeler() {
     
   }
   return<div className="card">

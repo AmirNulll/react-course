@@ -10,8 +10,7 @@ function App() {
 
       <Todo text="Hello" />
       <Todo text="World" />
-      <Modal />
-      <Backdrop />
+   
     </div>
   );
 }

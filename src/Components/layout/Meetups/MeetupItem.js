@@ -1,17 +1,17 @@
-import classes from "./MeetupItem.modules.css";
+import Classes from "./MeetupItem.module.css";
 
 function MeetupItem(props) {
   return (
-    <li className={classes.item}>
-      <div className={classes.image}>
+    <li className={Classes.item}>
+      <div className={Classes.image}>
         <img src={props.image} alt={props.title}></img>
       </div>
-      <div className={classes.content}>
+      <div className={Classes.content}>
         <h3>{props.title}</h3>
         <address>{props.address}</address>
         <p>{props.description}</p>
       </div>
-      <div className={classes.actions}>
+      <div className={Classes.actions}>
         <button>add to favorites</button>
       </div>
     </li>

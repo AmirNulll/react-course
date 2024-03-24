@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
 import Layout from "./Components/layout/Layoutt";
 import AllMeetupsPage from "./pages/AllMeatUp";
 import Favorites from "./pages/Favorites";
-import NewMeetups from "./pages/NewMeetups";
+import NewMeetupPage from "./pages/NewMeetups";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Favorites />
         </Route>
         <Route path="/newmeetups">
-          <NewMeetups />
+          <NewMeetupPage />
         </Route>
       </Switch>
     </Layout>
